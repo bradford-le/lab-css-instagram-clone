@@ -4,7 +4,148 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
-body {
+/** {
+  border: 1px solid red;
+}*/
+
+html, body {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  color: #06365f;
+}
+.top {
+  background: linear-gradient(to bottom, #608099, #4a708f);
+  height: 17em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.phone {
+  position: absolute;
+  height: 12em;
+  min-width: 12em;
+  top: 6em;
+  left: 5em;
+}
+
+.logo {
+  position: absolute;
+  height: 3em;
+  max-width: 12em;
+  top: 6em;
+  right: 5em;
+  left: 30em;
+}
+
+.login {
+  top: 7em;
+  right: 3em;
+}
+
+button {
+  position: absolute;
+  border: 1px solid #2a2b27;
+  border-radius: 2px;
+  background: #1c5380;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  top: 7em;
+  right: 5em;
+}
+
+.text {
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12em;
+  right: 5em;
+  left: 30em;
+  padding: 2em;
+  width: 29em;
+}
+#apple {
+  padding-right: 5px;
+}
+ul {
+  position: fixed;
+  list-style-type: none;
+  color: #7d7c7b;
+  font-size: 14px;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+.navigation {
+  clear: both;
+}
+/*body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h2 {
+  color: #06365f;
+}
+span {
+  font-weight: bold;
+}
+.container{
+}
+.left{
+  float: left;
+}
+.right {
+  background: green;
+  float: left;
+}
+ul {
+  position: fixed;
+  list-style-type: none;
+  color: #7d7c7b;
+  font-size: 14px;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-weight: bold;
+}
+.navigation {
+  clear: both;
+}
+.login {
+  width: 100%;
+  background: blue;
+}
+button {
+  background: url('../images/bgtile.png');
+}
+.logbutton{
+  display: inline;
+}*/
